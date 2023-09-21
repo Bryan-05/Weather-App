@@ -4,7 +4,8 @@ const locationButton = document.querySelector(".current-location-btn")
 const currentWeatherDiv = document.querySelector(".weather-display");
 const weatherCardsDiv = document.querySelector(".forecast-cards");
 
-const API_KEY = "Removed";
+// You must use your own API key from openweathermap.org
+const API_KEY = "Your API key here";
 
 const createWeatherCard = (locationName, weatherItem, index) => {
     if (index === 0) {
